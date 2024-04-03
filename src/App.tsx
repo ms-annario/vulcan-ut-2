@@ -57,7 +57,7 @@ function App() {
           />
         </div>
         <div className="align-left">
-          <h1>กิจกรรม</h1>
+          <h1>ค้นหากิจกรรม</h1>
           <Combobox
             defaultValue=""
             data={[
