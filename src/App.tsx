@@ -14,6 +14,7 @@ function App() {
           <h1>ค้นหาเขต/ถนน/แขวง</h1>
           <Combobox
             defaultValue=""
+            placeholder="ค้นหาเขต/ถนน/แขวง"
             data={[
               "คลองเตย",
               "บางรัก",
@@ -31,11 +32,12 @@ function App() {
           <h1>ค้นหาหน่วยงาน</h1>
           <Combobox
             defaultValue=""
+            placeholder="ค้นหาหน่วยงาน"
             data={[
               "สำนักงานเขต",
               "โรงพยาบาล",
               "การไฟฟ้าและการประปา",
-              "ปรษณีย์",
+              "ไปรษณีย์",
               "การประปา",
               "ขยะและสิ่งปฏิกูล",
             ]}
@@ -45,6 +47,7 @@ function App() {
           <h1>ค้นหาประเภทข้อมูล</h1>
           <Combobox
             defaultValue=""
+            placeholder="ค้นหาประเภทข้อมูล"
             data={[
               "ทั้งหมด",
               "เบอร์โทรศัพท์",
@@ -60,6 +63,7 @@ function App() {
           <h1>ค้นหากิจกรรม</h1>
           <Combobox
             defaultValue=""
+            placeholder="ค้นหากิจกรรม"
             data={[
               "ทำบัตรประชาชน",
               "บัตรประชาชน",
@@ -71,7 +75,11 @@ function App() {
         </div>
         <div className="align-left">
           <h1>ค้นหาจากคีย์เวิร์ด</h1>
-          <Combobox defaultValue="" data={[""]} />
+          <Combobox
+            defaultValue=""
+            placeholder="ค้นหาจากคีย์เวิร์ด"
+            data={[""]}
+          />
         </div>
       </div>
     </>
