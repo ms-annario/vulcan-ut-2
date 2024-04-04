@@ -9,7 +9,6 @@ function App() {
         ระบบเสิร์จข้อมูล:
         สำหรับหน่วยรับเรื่องร้องเรียนและสอบถามภายในกรุงเทพมหานคร
       </h1>
-      <h1 className="topic">ข้อมูลใดไม่มี ก็สามารถละไว้ได้</h1>
       <div className="group-filter">
         <div className="align-left">
           <h1>อยู่ในเขตใด?</h1>
