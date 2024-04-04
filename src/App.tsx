@@ -152,6 +152,7 @@ function App() {
             data={[
               "สำนักงานเขต",
               "สำนักอนามัย",
+              "สำนักงานบัตรทอง",
               "สำนักสิ่งแวดล้อม",
               "สำนักวัฒนธรรม กีฬา และการท่องเที่ยว",
               "สำนักยุทธศาสตร์และประเมินผล",
@@ -247,11 +248,7 @@ function App() {
         </div>
         <div className="align-left">
           <h1>ค้นหาจากคีย์เวิร์ด</h1>
-          <Combobox
-            defaultValue=""
-            placeholder="ค้นหาจากคีย์เวิร์ด"
-            data={[""]}
-          />
+          <input type="text" defaultValue="" placeholder="ค้นหาจากคีย์เวิร์ด" />
         </div>
       </div>
     </>
