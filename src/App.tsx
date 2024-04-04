@@ -11,7 +11,7 @@ function App() {
       </h1>
       <div className="group-filter">
         <div className="align-left">
-          <h1>ค้นหาเขต/ถนน/แขวง</h1>
+          <h1>เขต/ถนน/แขวง</h1>
           <Combobox
             defaultValue=""
             placeholder="ค้นหาเขต/ถนน/แขวง"
@@ -29,7 +29,7 @@ function App() {
           />
         </div>
         <div className="align-left">
-          <h1>ค้นหาหน่วยงาน</h1>
+          <h1>หน่วยงาน</h1>
           <Combobox
             defaultValue=""
             placeholder="ค้นหาหน่วยงาน"
@@ -45,7 +45,7 @@ function App() {
           />
         </div>
         <div className="align-left">
-          <h1>ค้นหาประเภทข้อมูล</h1>
+          <h1>ประเภทข้อมูล</h1>
           <Combobox
             defaultValue=""
             placeholder="ค้นหาประเภทข้อมูล"
@@ -61,7 +61,7 @@ function App() {
           />
         </div>
         <div className="align-left">
-          <h1>ค้นหากิจกรรม</h1>
+          <h1>กิจกรรม</h1>
           <Combobox
             defaultValue=""
             placeholder="ค้นหากิจกรรม"
@@ -75,7 +75,7 @@ function App() {
           />
         </div>
         <div className="align-left">
-          <h1>ค้นหาจากคีย์เวิร์ด</h1>
+          <h1>คีย์เวิร์ด</h1>
           <Combobox
             defaultValue=""
             placeholder="ค้นหาจากคีย์เวิร์ด"
